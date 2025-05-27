@@ -40,6 +40,8 @@ static void *routine_func( void * )
 int main(int argc,char *argv[])
 {
 	int cnt = atoi( argv[1] );
+	int test = atoi( argv[2] );
+	printf("cnt: %d\n", test);
 
 	pthread_t tid[ cnt ];
 	for(int i=0;i<cnt;i++)
