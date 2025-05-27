@@ -41,7 +41,10 @@ int main(int argc,char *argv[])
 {
 	int cnt = atoi( argv[1] );
 	int test = atoi( argv[2] );
+	int test2 = atoi( argv[3] );
 	printf("cnt: %d\n", test);
+	printf("test: %d\n", test2);
+
 
 	pthread_t tid[ cnt ];
 	for(int i=0;i<cnt;i++)
